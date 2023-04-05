@@ -7,7 +7,7 @@ app = Flask(__name__)
 class HelloForm(Form):
     dasd = TextAreaField('',[validators.DataRequired()])
 
-#
+#sf
 @app.route('/')
 def index():
     form = HelloForm(request.form)
